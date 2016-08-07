@@ -34,6 +34,7 @@ xx1=  0   : .1 :  3.1 ;   v1=polyval(r1,xx1);
 xx2=  3.1 : .1 : 10.3 ;   v2=polyval(r2,xx2);
 xx3= 10.3 : .1 : 30.1 ;   v3=polyval(r3,xx3);
 
-%hold on % does what?
+hold on % does what?
 
+% graph things
 plot(t, vel,'o',xx1,v1,xx2,v2,xx3,v3);
